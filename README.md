@@ -1,16 +1,16 @@
 # oh-my-zsh
 
-# Apa itu Shell dan Zsh?
+## Apa itu Shell dan Zsh?
 
 **Shell** adalah salah satu jenis program asli sistem operasi (seringnya merupakan program yang terpisah dari inti sistem operasi) yang menyediakan komunikasi langsung antara pengguna dan sistem operasi.
 
 **Zsh (Z shell)** adalah salah satu shell untuk Unix yang merupakan pengembangan dari Bourne shell (sh). Beberapa peningkatan fiturnya antara lain ```cd completion```, ```git completion```, ```path expansion```, dll.
 
-# Apa itu Oh-My-Zsh?
+## Apa itu Oh-My-Zsh?
 
 **Oh-My-Zsh** adalah sebuah framework untuk konfigurasi Zsh yang dikembangkan oleh Robby Russel. Dengan Oh My Zsh, terminal yang menjalankan Zsh menjadi lebih keren karena dilengkapi dengan functions, helpers, plugins, dan themes.
 
-# Install Oh-My-Zsh sekarang
+## Install Oh-My-Zsh sekarang
 
 Ada dua cara untuk menginstall Oh-My-Zsh: 
 
@@ -24,7 +24,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
-# Ganti Tema Oh-My-Zsh
+## Ganti Tema Oh-My-Zsh
 
 * Cari file `.zshrc` dengan cara mengetik perintah pada folder home:
 ```
@@ -42,7 +42,7 @@ ZSH_THEME="cloud"
 
 Untuk referensi tema lainnya, kamu bisa membuka halaman <https://github.com/robbyrussell/oh-my-zsh/wiki/Themes>.
 
-# Fitur Zsh yang tidak ada di Bash
+## Fitur Zsh yang tidak ada di Bash
 
 * `cd completion`
 
@@ -63,7 +63,7 @@ cd /u/lo/b
 
 Dapat mempersingkat perintah dengan menggunakan alias. Salah satu contohnya adalah ketika akan mengetikkan perintah:
 ```
-ls -liah
+ls -lh
 ```
 maka cukup menyingkatnya dengan perintah:
 ```
