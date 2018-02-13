@@ -46,6 +46,7 @@ Untuk referensi tema lainnya, kamu bisa membuka halaman <https://github.com/robb
 
 * `cd completion`
 
+
 ⋅⋅⋅Ketika mengetikkan perintah `cd` dan menekan tombol tab, maka direktori yang ada akan autocomplete, jika ditekan tab lagi nama direktori akan berpindah dari satu direktori ke direktori lainnya sampai berakhir di direktori yang dimaksud.
 
 * `git completion`
