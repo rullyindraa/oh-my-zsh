@@ -1,16 +1,19 @@
 # oh-my-zsh
 
 ## Apa itu Shell dan Zsh?
+---
 
 **Shell** adalah salah satu jenis program asli sistem operasi (seringnya merupakan program yang terpisah dari inti sistem operasi) yang menyediakan komunikasi langsung antara pengguna dan sistem operasi.
 
 **Zsh (Z shell)** adalah salah satu shell untuk Unix yang merupakan pengembangan dari Bourne shell (sh). Beberapa peningkatan fiturnya antara lain ```cd completion```, ```git completion```, ```path expansion```, dll.
 
 ## Apa itu Oh-My-Zsh?
+---
 
 **Oh-My-Zsh** adalah sebuah framework untuk konfigurasi Zsh yang dikembangkan oleh Robby Russel. Dengan Oh My Zsh, terminal yang menjalankan Zsh menjadi lebih keren karena dilengkapi dengan functions, helpers, plugins, dan themes.
 
 ## Install Oh-My-Zsh sekarang
+---
 
 Ada dua cara untuk menginstall Oh-My-Zsh: 
 
@@ -25,6 +28,7 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 ```
 
 ## Ganti Tema Oh-My-Zsh
+---
 
 * Cari file `.zshrc` dengan cara mengetik perintah pada folder home:
 ```
@@ -43,11 +47,11 @@ ZSH_THEME="cloud"
 Untuk referensi tema lainnya, kamu bisa membuka halaman <https://github.com/robbyrussell/oh-my-zsh/wiki/Themes>.
 
 ## Fitur Zsh yang tidak ada di Bash
+---
 
 * `cd completion`
 
-
-⋅⋅⋅Ketika mengetikkan perintah `cd` dan menekan tombol tab, maka direktori yang ada akan autocomplete, jika ditekan tab lagi nama direktori akan berpindah dari satu direktori ke direktori lainnya sampai berakhir di direktori yang dimaksud.
+Ketika mengetikkan perintah `cd` dan menekan tombol tab, maka direktori yang ada akan autocomplete, jika ditekan tab lagi nama direktori akan berpindah dari satu direktori ke direktori lainnya sampai berakhir di direktori yang dimaksud.
 
 * `git completion`
 
